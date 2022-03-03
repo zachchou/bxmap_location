@@ -1,6 +1,6 @@
 # bxmap_location
 
-A new Flutter project.
+TencentLBS location flutter plugin
 
 ## Getting Started
 
