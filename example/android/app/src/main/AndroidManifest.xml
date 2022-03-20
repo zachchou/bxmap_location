@@ -37,5 +37,10 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+       <!-- 如果您key确认无误，却依然授权没有通过，请检查您的key的白名单配置 -->
+       <meta-data android:name="TencentMapSDK" android:value="EEABZ-OXQLJ-S3ZFV-FFLSZ-UMT5Q-26FI2" />
+       <meta-data
+           android:name="bxmap_location"
+           android:value="EEABZ-OXQLJ-S3ZFV-FFLSZ-UMT5Q-26FI2"/>
     </application>
 </manifest>

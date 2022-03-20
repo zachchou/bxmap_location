@@ -36,6 +36,14 @@ android {
         versionName flutterVersionName
     }
 
+//    dependencies {
+//        implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    }
+
+    dependencies {
+        implementation 'com.tencent.map.geolocation:TencentLocationSdk-openplatform:7.4.4.3'
+    }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.

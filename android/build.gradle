@@ -1,6 +1,14 @@
 group 'com.bxlocation.bxmap_location'
 version '1.0'
 
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+
 buildscript {
     repositories {
         google()
@@ -12,13 +20,6 @@ buildscript {
     }
 }
 
-rootProject.allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
-}
-
 apply plugin: 'com.android.library'
 
 android {
@@ -26,5 +27,13 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    dependencies {
+        implementation 'com.tencent.map.geolocation:TencentLocationSdk-openplatform:7.4.4.3'
     }
 }

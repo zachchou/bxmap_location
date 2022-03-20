@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bxmap_location.iml" filepath="$PROJECT_DIR$/bxmap_location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bxmap_location.iml" filepath="$PROJECT_DIR$/.idea/bxmap_location.iml" />
       <module fileurl="file://$PROJECT_DIR$/android/bxmap_location_android.iml" filepath="$PROJECT_DIR$/android/bxmap_location_android.iml" />
     </modules>
   </component>
