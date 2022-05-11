@@ -189,7 +189,9 @@
         if (location.nation) {
             [dic setValue:location.nation forKey:@"nation"];
         }
-        
+        if (location.province) {
+            [dic setValue:location.province forKey:@"province"];
+        }
         if (location.city) {
             [dic setValue:location.city forKey:@"city"];
         }
